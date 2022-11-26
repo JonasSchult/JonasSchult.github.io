@@ -7,11 +7,72 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1168479-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-1168479-8');
+</script>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  p {
+    line-height: 25px;
+  }
+
+  main.container {
+    max-width: 900px;
+  }
+
+  span.p-title {
+    font-size: 19px;
+  }
+
+  span.p-authors {
+    font-style: normal;
+  }
+
+  span.p-conference {
+    font-style: italic;
+  }
+
+  .p-bibtex {
+    font-size: 12px;
+    margin-bottom: 0px;
+    max-width: 650px;
+    text-align: left;
+  }
+
+  img.p-teaser {
+    width: 160px;
+  }
+
+  img.profile {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 0px;
+    box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.5);
+  }
+</style>
 
 <ul class="list-unstyled">
   <li class="media">
     <div class="media-body text-center">
-      <img src="teaser_mask3d.jpg" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+      <img src="images/teaser_mask3d.jpg" class="mr-4 p-teaser float-sm-left mb-sm-1" />
       <p class="text-left">
         <span class="p-title">Mask3D: Mask Transformer for 3D Semantic Instance Segmentation</span></br>
         <span class="p-authors">
