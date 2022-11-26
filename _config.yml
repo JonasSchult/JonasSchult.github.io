@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jonas Schult"
   avatar           : "profile.jpg"
-  bio              : "PhD Student"
-  location         : "Aachen"
+  bio              : "PhD Student in Computer Vision"
+  location         : # "Aachen"
   employer         : "RWTH Aachen University"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=iW4T05IAAAAJ&hl=de"
