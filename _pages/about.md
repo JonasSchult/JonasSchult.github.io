@@ -15,3 +15,36 @@ News
 ======
 * **Oct 2022**: Our [Mask3D](https://jonasschult.github.io/Mask3D/) method ranks 2nd on the Instance Segmentation Challenge hosted by the [Urban3D Workshop](https://urban3dchallenge.github.io/) at ECCV 2022.
 * **Sep 2022**: [Mask3D](https://jonasschult.github.io/Mask3D/) achieves SOTA on the challenging ScanNet, ScanNet200, S3DIS and STPLS3D dataset.
+
+Publications
+======
+
+      <ul class="list-unstyled">
+        <li class="media">
+        <div class="media-body text-center">
+          <img src="teaser_mask3d.jpg" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p class="text-left">
+            <span class="p-title">Mask3D: Mask Transformer for 3D Semantic Instance Segmentation</span></br>
+            <span class="p-authors">
+              Jonas Schult, <u>Francis Engelmann</u>, Alexander Hermans, Or Litany, Siyu Tang, Bastian Leibe
+            </span></br>
+            <span class="p-conference">arXiv, 2022.</span>, 1st Place <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/semantic_instance_3d">ScanNet Challenge</a></br>
+            <a class="mr-3" target="_blank" href="https://arxiv.org/abs/2210.03105"><i class="fa fa-file-pdf-o"></i> Paper</a>
+            <a class="mr-3" data-toggle="collapse" href="#bibtex_mask3d" role="button" aria-expanded="false" aria-controls="bibtex_mix3d"><i class="fa fa-file-text-o"></i> BibTeX</a>
+            <a class="mr-3" target="_blank" href="https://jonasschult.github.io/Mask3D/"><i class="fa fa-cube"></i> Project</a>
+            <a class="mr-3" target="_blank" href="https://github.com/JonasSchult/Mask3D"><i class="fa fa-file-code-o"></i> Code</a>
+            <a class="mr-3" target="_blank" href="https://mix3d-demo.nekrasov.dev/mask3d/"><i class="fa fa-file-pdf-o"></i> Demo</a>
+            <div class="collapse" id="bibtex_mask3d">
+              <div class="card card-body">
+<pre class="p-bibtex">@inproceedings{Schult2022mask3d,
+    title = {{Mask3D: Mask Transformer for 3D Semantic Instance Segmentation}},
+    author = {Schult, Jonas and Engelmann, Francis and Hermans, Alexander and Litany, Or and Tang, Siyu and Leibe, Bastian},
+    booktitle = {{arXiv:2210.03105}},
+    year = {2022}
+}</pre>
+                </div>
+            </div>
+          </p>
+        </div>
+      </li>
+      </ul>
