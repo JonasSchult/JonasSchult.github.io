@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jonas Schult"
+  name             : # "Jonas Schult"
   avatar           : "profile.jpg"
   bio              : "PhD Student in Computer Vision"
   location         : # "Aachen"
