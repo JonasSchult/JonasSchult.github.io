@@ -146,7 +146,7 @@ redirect_from:
   
   for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
-      id = this.id
+      id = this.id;
       var content = document.getElementById("content" + id);
       if (content.style.maxHeight){
         content.style.maxHeight = null;
@@ -155,4 +155,4 @@ redirect_from:
       } 
     });
   }
-  </script>
+</script>
