@@ -86,12 +86,12 @@ redirect_from:
       </br>
       <a class="btn btn--research" href="https://jonasschult.github.io/Mask3D/">Project Page</a>
       <a class="btn btn--research" href="https://arxiv.org/abs/2210.03105">Paper</a>
-      <a class="btn btn--research collapsible">BibTex</a>
+      <a class="btn btn--research collapsible" id="collapse0">BibTex</a>
       <a class="btn btn--research" href="https://github.com/JonasSchult/Mask3D">Code</a>
       <a class="btn btn--research" href="https://mix3d-demo.nekrasov.dev/mask3d/">Demo</a>
     </p>
   </a>
-  <div class="collapsible-content">
+  <div id ="content0" class="collapsible-content">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 </div>
@@ -146,7 +146,8 @@ redirect_from:
   
   for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
-      var content = this.nextElementSibling;
+      id = this.id
+      var content = document.getElementById("content" + id);
       if (content.style.maxHeight){
         content.style.maxHeight = null;
       } else {
