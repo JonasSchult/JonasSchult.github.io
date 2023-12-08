@@ -90,10 +90,63 @@ redirect_from:
 <h2>Selected Publications</h2>
 
 <div class="paper-entry">
-  <a href="https://ywyue.github.io/AGILE3D/" class="special-link">
+  <a href="https://jonasschult.github.io/ControlRoom3D/" class="special-link">
     <p>
-      <img class="align-left teaser" style=""
-        src="https://jonasschult.github.io/images/teaser/mask4d.jpg">
+      <video style="padding-bottom: 0px; margin-top: -30px;" class="align-left teaser" autoplay muted loop>
+        <source src="https://jonasschult.github.io/images/teaser/industrial_lr.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <b>ControlRoom3D: Room Generation using Semantic Proxy Rooms</b>
+      </br>
+      <u>Jonas Schult</u>, Sam Tsai, Lukas Höllein, Bichen Wu, Jialiang Wang, Chih-Yao Ma, Kunpeng Li, Xiaofang Wang,
+      Felix Wimbauer, Zijian He, Peizhao Zhang, Bastian Leibe, Peter Vajda, Ji Hou
+      </br>
+      arXiv, 2023.
+      </br>
+      <a class="btn btn--research" href="https://jonasschult.github.io/ControlRoom3D/">
+        <span class="icon" style="margin-right: 0em;">
+          <i class="fas fa-bolt"></i>
+        </span>
+        <span>Project Page</span>
+      </a>
+      <a class="btn btn--research" href="https://jonasschult.github.io/ControlRoom3D/static/ControlRoom3D_paper.pdf">
+        <span class="icon" style="margin-right: 0em;">
+          <i class="fas fa-file-pdf"></i>
+        </span>
+        <span>Paper</span>
+      </a>
+      <a class="btn btn--research collapsible" id="collapse_controlroom3d">
+        <span class="icon" style="margin-right: 0em;">
+          <i class="fas fa-book"></i>
+        </span>
+        <span>BibTex</span>
+      </a>
+      <a class="btn btn--research" href="#">
+        <span class="icon" style="margin-right: 0em;">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code</span>
+      </a>
+    </p>
+  </a>
+  <div id="content_controlroom3d" class="collapsible-content">
+    <pre class="p-bibtex">
+{% raw %}
+@article{schult23controlroom3d,
+  author    = {Schult, Jonas and Tsai, Sam and H\"ollein, Lukas and Wu, Bichen and Wang, Jialiang and Ma, Chih-Yao and Li, Kunpeng and Wang, Xiaofang and Wimbauer, Felix and He, Zijian and Zhang, Peizhao and Leibe, Bastian and Vajda, Peter and Hou, Ji},
+  title     = {ControlRoom3D: Room Generation using Semantic Proxy Rooms},
+  journal   = {arXiv},
+  year      = {2023},
+}
+{% endraw %}
+    </pre>
+  </div>
+</div>
+
+<div class="paper-entry">
+  <a href="https://yilmazkadir.github.io/Mask4D/" class="special-link">
+    <p>
+      <img class="align-left teaser" style="" src="https://jonasschult.github.io/images/teaser/mask4d.jpg">
       <b>MASK4D: Mask Transformer for 4D Panoptic Segmentation</b>
       </br>
       Kadir Yilmaz, <u>Jonas Schult</u>, Alexey Nekrasov, Bastian Leibe
