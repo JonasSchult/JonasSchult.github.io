@@ -23,6 +23,7 @@ redirect_from:
   }
 
   .collapsible-content {
+    width: 100%;
     margin: 0px 0px 20px 0px;
     padding: 0 18px;
     max-height: 0;
@@ -51,14 +52,14 @@ redirect_from:
 
   .left-div {
       flex: 1;
-      min-width: 30%;
+      min-width: 40%;
       padding: 10px;
       box-sizing: border-box;
   }
 
   .right-div {
       flex: 1;
-      min-width: 70%;
+      min-width: 60%;
       padding: 10px;
       box-sizing: border-box;
   }
@@ -164,7 +165,7 @@ redirect_from:
     </a>
   </div>
 </div>
-<div id="content_controlroom3d" class="collapsible-content" style="width: 100%;">
+<div id="content_controlroom3d" class="collapsible-content">
   <pre class="p-bibtex">
 {% raw %}
 @article{schult23controlroom3d,
@@ -177,42 +178,49 @@ year      = {2023},
   </pre>
 </div>
 
-<div class="paper-entry">
-  <a href="https://yilmazkadir.github.io/Mask4D/" class="special-link">
-    <p>
-      <img class="align-left teaser" style="" src="https://jonasschult.github.io/images/teaser/mask4d.jpg">
-      <b>MASK4D: Mask Transformer for 4D Panoptic Segmentation</b>
-      </br>
-      Kadir Yilmaz, <u>Jonas Schult</u>, Alexey Nekrasov, Bastian Leibe
-      </br>
-      arXiv, 2023.
-      </br>
-      <a class="btn btn--research" href="https://vision.rwth-aachen.de/mask4d">
-        <span class="icon" style="margin-right: 0em;">
-          <i class="fas fa-bolt"></i>
-        </span>
-        <span>Project Page</span>
-      </a>
-      <a class="btn btn--research" href="https://arxiv.org/abs/2309.16133">
-        <span class="icon" style="margin-right: 0em;">
-          <i class="fas fa-file-pdf"></i>
-        </span>
-        <span>Paper</span>
-      </a>
-      <a class="btn btn--research collapsible" id="collapse_mask4d">
-        <span class="icon" style="margin-right: 0em;">
-          <i class="fas fa-book"></i>
-        </span>
-        <span>BibTex</span>
-      </a>
-      <a class="btn btn--research" href="#">
-        <span class="icon" style="margin-right: 0em;">
-          <i class="fab fa-github"></i>
-        </span>
-        <span>Code</span>
-      </a>
-    </p>
-  </a>
+<div class="container">
+  <div class="left-div">
+    <a href="https://vision.rwth-aachen.de/mask4d" class="special-link">
+    <img style="width: 100%;" src="https://jonasschult.github.io/images/teaser/mask4d.jpg">
+    </a>
+  </div>
+  <div class="right-div">
+    <a href="https://yilmazkadir.github.io/Mask4D/" class="special-link">
+      <p>
+        <b>MASK4D: Mask Transformer for 4D Panoptic Segmentation</b>
+        </br>
+        Kadir Yilmaz, <u>Jonas Schult</u>, Alexey Nekrasov, Bastian Leibe
+        </br>
+        arXiv, 2023.
+        </br>
+        <a class="btn btn--research" href="https://vision.rwth-aachen.de/mask4d">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-bolt"></i>
+          </span>
+          <span>Project Page</span>
+        </a>
+        <a class="btn btn--research" href="https://arxiv.org/abs/2309.16133">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>Paper</span>
+        </a>
+        <a class="btn btn--research collapsible" id="collapse_mask4d">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-book"></i>
+          </span>
+          <span>BibTex</span>
+        </a>
+        <a class="btn btn--research" href="#">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Code</span>
+        </a>
+      </p>
+    </a>    
+  </div>
+</div>
   <div id="content_mask4d" class="collapsible-content">
     <pre class="p-bibtex">
 {% raw %}
@@ -225,7 +233,6 @@ year      = {2023},
 {% endraw %}
     </pre>
   </div>
-</div>
 
 <div class="paper-entry">
   <a href="https://ywyue.github.io/AGILE3D/" class="special-link">
