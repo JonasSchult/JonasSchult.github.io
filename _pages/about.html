@@ -47,9 +47,16 @@ redirect_from:
     flex-wrap: wrap;
   }
 
-  .left-div, .right-div {
+  .left-div {
       flex: 1;
-      min-width: 50%;
+      min-width: 20%;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .right-div {
+      flex: 1;
+      min-width: 80%;
       padding: 10px;
       box-sizing: border-box;
   }
@@ -172,10 +179,6 @@ redirect_from:
   <div class="right-div">
     <a href="https://jonasschult.github.io/ControlRoom3D/" class="special-link">
       <p>
-        <video style="padding-bottom: 0px; margin-top: 30px;" class="align-left teaser" autoplay muted loop>
-          <source src="https://jonasschult.github.io/images/teaser/industrial_lr.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
         <b>ControlRoom3D: Room Generation using Semantic Proxy Rooms</b>
         </br>
         <u>Jonas Schult</u>, Sam Tsai, Lukas Höllein, Bichen Wu, Jialiang Wang, Chih-Yao Ma, Kunpeng Li, Xiaofang Wang,
