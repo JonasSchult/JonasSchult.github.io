@@ -15,8 +15,9 @@ main:
 #  - title: "Blog Posts"
 #    url: /year-archive/
     
-  - title: "CV"
-    url: https://jonasschult.github.io/files/CV_Jonas_Schult.pdf
+# CV link restored once the public CV is built (old 2024 PDF taken offline 2026-10-18)
+#  - title: "CV"
+#    url: https://jonasschult.github.io/files/CV_Jonas_Schult.pdf
     
 #  - title: "Guide"
 #    url: /markdown/
