@@ -1,4 +1,5 @@
 ---
+published: false  # AcademicPages template placeholder, not part of the site
 permalink: /markdown/
 title: "Markdown"
 author_profile: true

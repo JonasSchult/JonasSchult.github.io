@@ -1,4 +1,5 @@
 ---
+published: false  # AcademicPages template placeholder, not part of the site
 permalink: /terms/
 title: "Terms and Privacy Policy"
 modified: 2016-06-06

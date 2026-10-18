@@ -1,4 +1,5 @@
 ---
+published: false  # AcademicPages template placeholder, not part of the site
 title: "Archive Layout with Content"
 layout: archive
 permalink: /archive-layout-with-content/

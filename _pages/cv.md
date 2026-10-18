@@ -1,4 +1,5 @@
 ---
+published: false  # AcademicPages template placeholder, not part of the site
 layout: archive
 title: "CV"
 permalink: /cv/

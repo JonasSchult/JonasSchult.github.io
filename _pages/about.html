@@ -63,6 +63,12 @@ redirect_from:
     box-sizing: border-box;
   }
 
+  .older-news summary {
+    cursor: pointer;
+    margin: 0 0 1em 1.25em;
+    color: #7a8288;
+  }
+
   /* Media Query for smaller screens */
   @media (max-width: 600px) {
 
@@ -74,24 +80,37 @@ redirect_from:
 </style>
 
 <p>
-  I am a Ph.D. student at RWTH Aachen University, working with <a
-    href="https://www.vision.rwth-aachen.de/person/1/">Prof. Dr. Bastian Leibe</a>, focusing on 3D Scene Understanding.
-  I received my B.Sc. and M.Sc. with distinction in Computer Science from RWTH Aachen University, where I worked as a
-  student research assistant under the supervision of <a href="https://francisengelmann.github.io/">Francis
+  I am a Senior AI Research Scientist at <a href="https://ai.meta.com/">Meta</a> in London, taking generative image and
+  video models from research into production.
+  Before joining Meta, I did my PhD research on 3D Scene Understanding at RWTH Aachen University with <a
+    href="https://www.vision.rwth-aachen.de/person/1/">Prof. Dr. Bastian Leibe</a>.
+  I received my B.Sc. and my M.Sc. (with distinction) in Computer Science from RWTH Aachen University, where I worked as a
+  student research assistant under the supervision of <a href="https://francisengelmann.github.io/">Prof. Dr. Francis
     Engelmann</a>.
 </p>
 <h2>News</h2>
 <ul>
+  <li><b>Feb 2026</b>: <a href="https://tuna-ai.org/">TUNA</a> (Highlight) and <a
+      href="http://haonanqiu.com/projects/HiStream.html">HiStream</a> were accepted to CVPR 2026. Congrats to Weiming Ren,
+    Zhiheng Liu and Haonan Qiu on their internship projects!</li>
+  <li><b>Sep 2024</b>: The third iteration of our workshop <a href="https://opensun3d.github.io/index_eccv24.html">OpenSUN3D</a>
+    on Open-Vocabulary 3D Scene Understanding was held in conjunction with ECCV 2024 in Milan.</li>
+  <li><b>Aug 2024</b>: I joined <a href="https://ai.meta.com/">Meta</a> in London as an AI Research Scientist, working on
+    generative image and video models.</li>
   <li><b>Feb 2024</b>: <a href="https://jonasschult.github.io/ControlRoom3D/">ControlRoom3D</a> was accepted to CVPR
     2024.</li>
   <li><b>Jan 2024</b>: <a href="https://ywyue.github.io/AGILE3D/">AGILE3D</a> was accepted at ICLR and <a
-      href="https://yilmazkadir.github.io/Mask4D/">MASK4D</a> was accepted at ICRA. Congrats to both Yuanwen Yue and
+      href="https://yilmazkadir.github.io/Mask4Former/">Mask4Former</a> was accepted at ICRA. Congrats to both Yuanwen Yue and
     Kadir
     Yilmaz on their successful master theses.
   </li>
+</ul>
+<details class="older-news">
+  <summary>Older news (2022–2023)</summary>
+  <ul>
   <li><b>Dec 2023</b>: The second iteration of our workshop <a href="https://opensun3d.github.io/">OpenSun3D</a> on
     Open-Vocabulary 3D Scene Understanding will be held in conjunction with CVPR in Seattle.</li>
-  <li><b>Aug 2023</b>: <a href="https://point2vec.ka.codes/">Point2Vec</a> was accepted at GCPR 2023.
+  <li><b>Aug 2023</b>: <a href="https://github.com/kabouzeid/point2vec">Point2Vec</a> was accepted at GCPR 2023.
   </li>
   <li><b>Jul 2023</b>: <a href="https://jonasschult.github.io/Human3D/">Human3D</a> was accepted at ICCV 2023. This was
     a great collaboration with Ayça Takmaz, Irem Kaftan, Mertcan Akçay, Bastian Leibe, Robert Sumner, Francis Engelmann
@@ -125,9 +144,122 @@ redirect_from:
       challenge</a>.
     This was a great team effort with Alexey Nekrasov, Francis Engelmann, Or Litany and Bastian Leibe!
   </li>
-</ul>
+  </ul>
+</details>
+
 
 <h2>Selected Publications</h2>
+
+<div class="container">
+  <div class="left-div">
+    <a href="https://tuna-ai.org/" class="special-link">
+      <img style="width: 100%;" src="https://jonasschult.github.io/images/teaser/tuna.jpg">
+    </a>
+  </div>
+  <div class="right-div">
+    <a href="https://tuna-ai.org/" class="special-link">
+      <p>
+        <b>TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models</b>
+        </br>
+        Zhiheng Liu, Weiming Ren, Haozhe Liu, Zijian Zhou, Shoufa Chen, Haonan Qiu, Xiaoke Huang, Zhaochong An, Fanny Yang,
+        Aditya Patel, Viktar Atliha, Tony Ng, Xiao Han, Chuyan Zhu, Chenyang Zhang, Ding Liu, Juan-Manuel Perez-Rua,
+        Sen He, Jürgen Schmidhuber, Wenhu Chen, Ping Luo, Wei Liu, Tao Xiang, <u>Jonas Schult</u>, Yuren Cong
+        </br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026.
+        </br>
+        <b>Highlight</b>
+        </br>
+        <a class="btn btn--research" href="https://tuna-ai.org/">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-bolt"></i>
+          </span>
+          <span>Project Page</span>
+        </a>
+        <a class="btn btn--research" href="https://arxiv.org/abs/2512.02014">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>Paper</span>
+        </a>
+        <a class="btn btn--research collapsible" id="collapse_tuna">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-book"></i>
+          </span>
+          <span>BibTex</span>
+        </a>
+        <a class="btn btn--research" href="https://github.com/facebookresearch/tuna-2">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Code</span>
+        </a>
+      </p>
+    </a>
+  </div>
+</div>
+<div id="content_tuna" class="collapsible-content">
+  <pre class="p-bibtex">
+{% raw %}
+@inproceedings{liu2026tuna,
+  title     = {{TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models}},
+  author    = {Liu, Zhiheng and Ren, Weiming and Liu, Haozhe and Zhou, Zijian and Chen, Shoufa and Qiu, Haonan and Huang, Xiaoke and An, Zhaochong and Yang, Fanny and Patel, Aditya and Atliha, Viktar and Ng, Tony and Han, Xiao and Zhu, Chuyan and Zhang, Chenyang and Liu, Ding and Perez-Rua, Juan-Manuel and He, Sen and Schmidhuber, J\"urgen and Chen, Wenhu and Luo, Ping and Liu, Wei and Xiang, Tao and Schult, Jonas and Cong, Yuren},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
+}
+{% endraw %}
+  </pre>
+</div>
+
+<div class="container">
+  <div class="left-div">
+    <a href="http://haonanqiu.com/projects/HiStream.html" class="special-link">
+      <img style="width: 100%;" src="https://jonasschult.github.io/images/teaser/histream.jpg">
+    </a>
+  </div>
+  <div class="right-div">
+    <a href="http://haonanqiu.com/projects/HiStream.html" class="special-link">
+      <p>
+        <b>HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming</b>
+        </br>
+        Haonan Qiu, Shikun Liu, Zijian Zhou, Zhaochong An, Weiming Ren, Zhiheng Liu, <u>Jonas Schult</u>, Sen He,
+        Shoufa Chen, Yuren Cong, Tao Xiang, Ziwei Liu, Juan-Manuel Perez-Rua
+        </br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026.
+        </br>
+        <a class="btn btn--research" href="http://haonanqiu.com/projects/HiStream.html">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-bolt"></i>
+          </span>
+          <span>Project Page</span>
+        </a>
+        <a class="btn btn--research" href="https://arxiv.org/abs/2512.21338">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>Paper</span>
+        </a>
+        <a class="btn btn--research collapsible" id="collapse_histream">
+          <span class="icon" style="margin-right: 0em;">
+            <i class="fas fa-book"></i>
+          </span>
+          <span>BibTex</span>
+        </a>
+      </p>
+    </a>
+  </div>
+</div>
+<div id="content_histream" class="collapsible-content">
+  <pre class="p-bibtex">
+{% raw %}
+@inproceedings{qiu2026histream,
+  title     = {{HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming}},
+  author    = {Qiu, Haonan and Liu, Shikun and Zhou, Zijian and An, Zhaochong and Ren, Weiming and Liu, Zhiheng and Schult, Jonas and He, Sen and Chen, Shoufa and Cong, Yuren and Xiang, Tao and Liu, Ziwei and Perez-Rua, Juan-Manuel},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
+}
+{% endraw %}
+  </pre>
+</div>
 
 <div class="container">
   <div class="left-div">
@@ -166,12 +298,6 @@ redirect_from:
           </span>
           <span>BibTex</span>
         </a>
-        <a class="btn btn--research" href="#">
-          <span class="icon" style="margin-right: 0em;">
-            <i class="fab fa-github"></i>
-          </span>
-          <span>Code</span>
-        </a>
       </p>
     </a>
   </div>
@@ -191,7 +317,7 @@ year      = {2024},
 
 <div class="container">
   <div class="left-div">
-    <a href="https://vision.rwth-aachen.de/mask4d" class="special-link">
+    <a href="https://yilmazkadir.github.io/Mask4Former/" class="special-link">
       <video autoplay muted loop style="width: 100%;">
         <source src="https://jonasschult.github.io/images/teaser/Teaser_Mask4D.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -199,15 +325,15 @@ year      = {2024},
     </a>
   </div>
   <div class="right-div">
-    <a href="https://yilmazkadir.github.io/Mask4D/" class="special-link">
+    <a href="https://yilmazkadir.github.io/Mask4Former/" class="special-link">
       <p>
-        <b>MASK4D: Mask Transformer for 4D Panoptic Segmentation</b>
+        <b>Mask4Former: Mask Transformer for 4D Panoptic Segmentation</b>
         </br>
         Kadir Yilmaz, <u>Jonas Schult</u>, Alexey Nekrasov, Bastian Leibe
         </br>
         International Conference on Robotics and Automation (ICRA), 2024.
         </br>
-        <a class="btn btn--research" href="https://vision.rwth-aachen.de/mask4d">
+        <a class="btn btn--research" href="https://yilmazkadir.github.io/Mask4Former/">
           <span class="icon" style="margin-right: 0em;">
             <i class="fas fa-bolt"></i>
           </span>
@@ -225,7 +351,7 @@ year      = {2024},
           </span>
           <span>BibTex</span>
         </a>
-        <a class="btn btn--research" href="#">
+        <a class="btn btn--research" href="https://github.com/YilmazKadir/Mask4Former">
           <span class="icon" style="margin-right: 0em;">
             <i class="fab fa-github"></i>
           </span>
@@ -238,8 +364,8 @@ year      = {2024},
 <div id="content_mask4d" class="collapsible-content">
   <pre class="p-bibtex">
 {% raw %}
-@article{yilmaz24mask4d,
-  title     = {{MASK4D: Mask Transformer for 4D Panoptic Segmentation}},
+@inproceedings{yilmaz24mask4former,
+  title     = {{Mask4Former: Mask Transformer for 4D Panoptic Segmentation}},
   author    = {Yilmaz, Kadir and Schult, Jonas and Nekrasov, Alexey and Leibe, Bastian},
   booktitle = {International Conference on Robotics and Automation (ICRA)},
   year      = {2024}
@@ -295,7 +421,7 @@ year      = {2024},
 <div id="content_agile3d" class="collapsible-content">
   <pre class="p-bibtex">
 {% raw %}
-@article{yue2024agile3d,
+@inproceedings{yue2024agile3d,
   title     = {{AGILE3D: Attention Guided Interactive Multi-object 3D Segmentation}},
   author    = {Yue, Yuanwen and Mahadevan, Sabarinath and Schult, Jonas and Engelmann, Francis and Leibe, Bastian and Schindler, Konrad and Kontogianni, Theodora},
   booktitle = {International Conference on Learning Representations (ICLR)},
@@ -308,7 +434,7 @@ year      = {2024},
 
 <div class="container">
   <div class="left-div">
-    <a href="https://point2vec.ka.codes/" class="special-link">
+    <a href="https://github.com/kabouzeid/point2vec" class="special-link">
       <video autoplay muted loop style="width: 100%;">
         <source src="https://jonasschult.github.io/images/teaser/point2vec.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -316,20 +442,14 @@ year      = {2024},
     </a>
   </div>
   <div class="right-div">
-    <a href="https://point2vec.ka.codes/" class="special-link">
+    <a href="https://github.com/kabouzeid/point2vec" class="special-link">
       <p>
         <b>Point2Vec for Self-Supervised Representation Learning on Point Clouds</b>
         </br>
-        Karim Abou Zeid*, <u>Jonas Schult</u>*, Alexander Hermans, Bastian Leibe
+        Karim Knaebel*, <u>Jonas Schult</u>*, Alexander Hermans, Bastian Leibe
         </br>
         DAGM German Conference on Pattern Recognition (GCPR), 2023.
         </br>
-        <a class="btn btn--research" href="https://point2vec.ka.codes/">
-          <span class="icon" style="margin-right: 0em;">
-            <i class="fas fa-bolt"></i>
-          </span>
-          <span>Project Page</span>
-        </a>
         <a class="btn btn--research" href="https://arxiv.org/abs/2303.16570">
           <span class="icon" style="margin-right: 0em;">
             <i class="fas fa-file-pdf"></i>
@@ -342,7 +462,7 @@ year      = {2024},
           </span>
           <span>BibTex</span>
         </a>
-        <a class="btn btn--research" href="https://point2vec.ka.codes/">
+        <a class="btn btn--research" href="https://github.com/kabouzeid/point2vec">
           <span class="icon" style="margin-right: 0em;">
             <i class="fab fa-github"></i>
           </span>
@@ -355,11 +475,11 @@ year      = {2024},
 <div id="content_point2vec" class="collapsible-content">
   <pre class="p-bibtex">
 {% raw %}
-@article{abouzeid2023point2vec,
-  title={Point2Vec for Self-Supervised Representation Learning on Point Clouds},
-  author={Abou Zeid, Karim and Schult, Jonas and Hermans, Alexander and Leibe, Bastian},
-  journal={arXiv preprint arXiv:2303.16570},
-  year={2023},
+@inproceedings{knaebel2023point2vec,
+  title     = {{Point2Vec for Self-Supervised Representation Learning on Point Clouds}},
+  author    = {Knaebel, Karim and Schult, Jonas and Hermans, Alexander and Leibe, Bastian},
+  booktitle = {DAGM German Conference on Pattern Recognition (GCPR)},
+  year      = {2023}
 }
 {% endraw %}
     </pre>
@@ -403,7 +523,7 @@ year      = {2024},
           </span>
           <span>BibTex</span>
         </a>
-        <a class="btn btn--research" href="#">
+        <a class="btn btn--research" href="https://github.com/human-3d/Human3D">
           <span class="icon" style="margin-right: 0em;">
             <i class="fab fa-github"></i>
           </span>
@@ -416,12 +536,12 @@ year      = {2024},
 <div id="content_human3d" class="collapsible-content">
   <pre class="p-bibtex">
 {% raw %}
-@article{Takmaz22,
+@inproceedings{takmaz2023human3d,
   title     = {{3D Segmentation of Humans in Point Clouds with Synthetic Data}},
-  author    = {Takmaz, Ay\c{c}a and Schult, Jonas and Kaftan, Irem and Ak\c{c}ay, Mertcan 
-                and Leibe, Bastian and Sumner, Robert and Engelmann, Francis and Tang, Siyu},
-  booktitle = {{arXiv:2212.00786}},
-  year      = {2022}
+  author    = {Takmaz, Ay\c{c}a and Schult, Jonas and Kaftan, Irem and Ak\c{c}ay, Cafer Mertcan
+               and Leibe, Bastian and Sumner, Robert and Engelmann, Francis and Tang, Siyu},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2023}
 }
 {% endraw %}
     </pre>
@@ -436,13 +556,14 @@ year      = {2024},
   <div class="right-div">
     <a href="https://jonasschult.github.io/Mask3D/" class="special-link">
       <p>
-        <b>Mask Transformer for 3D Semantic Instance Segmentation</b>
+        <b>Mask3D: Mask Transformer for 3D Semantic Instance Segmentation</b>
         </br>
         <u>Jonas Schult</u>, Francis Engelmann, Alexander Hermans, Or Litany, Siyu Tang, Bastian Leibe
         </br>
-        International Conference on Robotics and Automation (ICRA), 2023. 1st Place <a
-          href="https://kaldir.vc.in.tum.de/scannet_benchmark/semantic_instance_3d">ScanNet
-          Challenge</a>
+        International Conference on Robotics and Automation (ICRA), 2023.
+        </br>
+        1st Place <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/semantic_instance_3d">ScanNet
+          Benchmark</a> (at time of publication)
         </br>
         <a class="btn btn--research" href="https://jonasschult.github.io/Mask3D/">
           <span class="icon" style="margin-right: 0em;">
@@ -477,11 +598,12 @@ year      = {2024},
       </p>
     </a>
   </div>
+</div>
   <div id="content0" class="collapsible-content">
     <pre class="p-bibtex">
 {% raw %}
-@article{Schult23,
-  title     = {{Mask3D for 3D Semantic Instance Segmentation}},
+@inproceedings{Schult23,
+  title     = {{Mask3D: Mask Transformer for 3D Semantic Instance Segmentation}},
   author    = {Schult, Jonas and Engelmann, Francis and Hermans, Alexander and Litany, Or and Tang, Siyu and Leibe, Bastian},
   booktitle = {{International Conference on Robotics and Automation (ICRA)}},
   year      = {2023}
@@ -507,7 +629,7 @@ year      = {2024},
           </br>
           <b>Oral Presentation</b>
           </br>
-          1st Place <a href="http://kaldir.vc.in.tum.de/scannet_benchmark/semantic_label_3d">ScanNet Challenge</a>
+          1st Place <a href="http://kaldir.vc.in.tum.de/scannet_benchmark/semantic_label_3d">ScanNet Benchmark</a> (at time of publication)
           </br>
           <a class="btn btn--research" href="https://kumuji.github.io/mix3d/">
             <span class="icon" style="margin-right: 0em;">
@@ -647,6 +769,7 @@ year      = {2024},
         </p>
       </a>
     </div>
+  </div>
     <div id="content3" class="collapsible-content">
       <pre class="p-bibtex">
 {% raw %}
@@ -659,7 +782,6 @@ year      = {2024},
 {% endraw %}
     </pre>
     </div>
-  </div>
 
   <script>
     var coll = document.getElementsByClassName("collapsible");

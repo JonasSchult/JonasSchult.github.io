@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jonas Schult"
 title_separator          : "-"
 name                     : &name "Jonas Schult"
-description              : &description "PhD Candidate RWTH Aachen University"
+description              : &description "Senior AI Research Scientist at Meta"
 url                      : https://JonasSchult.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JonasSchult/JonasSchult.github.io"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : # "Jonas Schult"
-  avatar           : "profile.jpg"
-  bio              : "Ph.D. Candidate    in Computer Vision"
-  location         : # "Aachen"
-  employer         : "RWTH Aachen University"
+  avatar           : "profile_2026.jpg"
+  bio              : "Senior AI Research Scientist"
+  location         : "London, UK"
+  employer         : "Meta"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=iW4T05IAAAAJ&hl=de"
-  email            : "schult@vision.rwth-aachen.de"
+  email            : "schult.jonas@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "JonasSchultCV"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -123,6 +123,17 @@ include:
   - _pages
   - files
 exclude:
+  # template placeholder content (AcademicPages) — kept in the repo, not published
+  - _posts
+  - _drafts
+  - _publications
+  - _talks
+  - _teaching
+  - _portfolio
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -174,19 +185,7 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+collections: {}
 
 
 # Defaults

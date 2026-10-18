@@ -1,4 +1,5 @@
 ---
+published: false  # AcademicPages template placeholder, not part of the site
 permalink: /non-menu-page/
 title: "Page not in menu"
 author_profile: true
